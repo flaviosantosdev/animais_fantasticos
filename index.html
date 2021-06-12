@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Animais Fantasticos</title>
+  <script>
+      document.documentElement.className = 'js'
+  </script>
+</head>
+<body>
+  <div class="grid-container">
+  <nav  class="menu js-menu">
+    <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul data-menu="list" id="menu">
+      <li><a href="#animais">Animais</a></li>
+      <li data-dropdown>
+        <a href="sobre.html">Sobre</a>
+        <ul class="dropdown-menu" >
+          <li><a href="empresa.html">A empresa</a></li>
+          <li><a href="equipe.html">A Equipe</a></li>
+          <li><a href="socios.html">Socios</a></li>
+          <li><a href="investidores.html">Investidores</a></li>
+        </ul>
+      
+      </li>
+      <li><a href="#faq">faq</a></li>
+      <li><a href="#contato">contato</a></li>
+      <li><a data-modal="abrir" href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <section class="grid-section animais js-scroll" id="animais">
+    <h1 class="titulo">Animais Fantasticos</h1>
+    
+    <ul class="animais-lista js-tabmenu">
+      <li title="Clique na raposa"><img src="img/imagem1.jpg" alt=""></li>
+      <li><img src="img/imagem2.jpg" alt=""></li>
+      <li><img src="img/imagem3.jpg" alt=""></li>
+      <li><img src="img/imagem4.jpg" alt=""></li>
+      <li><img src="img/imagem5.jpg" alt=""></li>
+      <li><img src="img/imagem6.jpg" alt=""></li>
+    </ul>
+
+    <div class="animais-descricao js-tabcontent">
+      <section data-anime="show-right">
+        <h2>Raposa</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+
+      <section data-anime="show-right">
+        <h2>Esquilo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+
+      <section data-anime="show-down">
+        <h2>Urso</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+
+      <section data-anime="show-down">
+        <h2>Lobo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+
+      <section data-anime="show-down">
+        <h2>Macacos</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+
+      <section data-anime="show-down">
+        <h2>Leão</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae perferendis unde eveniet, nobis exercitationem molestiae cumque laudantium inventore veniam aut labore, necessitatibus commodi officia recusandae aliquam esse adipisci minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolores inventore incidunt officia, consequuntur placeat dolorem molestias impedit accusantium sint eos blanditiis ducimus nam expedita saepe ea accusamus nostrum ipsam.</p>
+      </section>
+    </div>
+  </section>
+
+  <section class="grid-section faq js-accordion js-scroll" id="faq">
+    <h1 class="titulo">FAQ</h1>
+    <dl class="faq-lista">
+      <dt>Qual a idade dos animais ?</dt>
+       <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure maiores ipsa numquam earum deleniti dolores nesciunt ea sequi sunt fuga quos molestiae eligendi eveniet asperiores provident, laboriosam quasi aliquid esse!</dd>
+      
+      <dt>Eles são Fantasticos ?</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestias tempora autem non fugit accusantium. Maxime neque laborum nisi ad dicta. Quo fuga quisquam sint pariatur voluptas deleniti architecto impedit.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure maiores ipsa numquam earum deleniti dolores nesciunt ea sequi sunt fuga quos molestiae eligendi eveniet asperiores provident, laboriosam quasi aliquid esse!</dd>
+       <dt>Qual a idade dos animais ?</dt>
+       <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure maiores ipsa numquam earum deleniti dolores nesciunt ea sequi sunt fuga quos molestiae eligendi eveniet asperiores provident, laboriosam quasi aliquid esse!</dd>
+    
+      </dl>
+  </section>
+
+  <section class="grid-section numeros" data-anime="scroll">
+    <h1 class="titulo">Numeros</h1>
+    
+    <div class="numeros-grid">
+        
+        </div>
+    </div>
+  </section>
+
+  <section class="grid-section contato js-scroll" id="contato">
+    <h1 class="titulo">Contato</h1>
+    <div class="mapa" data-tooltip aria-label="Endereço proximo ao estacionamento">
+      <img src="img/mapa.png" alt="">
+    </div>
+
+    <ul class="dados">
+      <li>quasar@quasar.com</li>
+      <li>19 / 994472711</li>
+      <li>Campians Sp</li>
+      <li>Doe <span class="btc-preco"></span> Bitcoin</li>
+      <li data-semana="1,2,3,4,5" data-horario="8,18">Sex á Sex das 8 as 18</li>
+    </ul>
+  </section>
+
+  <footer class="copy">
+    <p>Quasar enterprise, todos os direitos</p>
+  </footer>
+</div>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Email">
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="senha">
+
+        <input type="submit" value="Cadastrar">
+      </form>
+    </div>
+  </section>
+  
+  <script src="/main/main.js"></script>
+ 
+</body>
+</html>
